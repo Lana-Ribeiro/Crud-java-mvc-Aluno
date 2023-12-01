@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cadastro Usuário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <main>
+            <div class="menu">
+                <h1>Cadastro de Alunos: </h1>
+                <form method="post" action="ControleAluno">
+                    <input type="hidden" name="flag" value="cad_Aluno">
+                    
+                    <p>
+                    <label for="matricula">Matricula:</label>
+                    <input id="matricula" type="text" name="matricula">
+                    </p>
+                    
+                    <p>
+                    <label for="nome">Nome:</label>
+                    <input id="nome" type="text" name="nome">
+                    </p>
+                    
+                    <p>
+                    <label for="curso">Curso</label>
+                    <input id="curso" type="text" name="curso">
+                    </p>
+                    
+                    <p>
+                    <label for="turno">Turno:</label>
+                    <input id="turno" type="text" name="turno">
+                    </p>
+                    
+                    <p>
+                    <label for="duracao">Duração:</label>
+                    <input id="duracao" type="text" name="duracao">
+                    </p>
+                    
+                    <p>
+                    <label for="valorCurso">Valor do curso:</label>
+                    <input id="valorCurso" type="text" name="valorCurso">
+                    </p>
+                    
+                    <p>
+                    <input type="submit" value="CADASTRAR">
+                    </p>
+                </form>
+                
+            </div>
+        </main>
+    </body>
+</html>
